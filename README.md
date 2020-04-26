@@ -1,10 +1,10 @@
 # Tamo "Vidurkių skaičiavimas" patch 
 Tamo dienyne yra labai naudinga funkcija vidurkiui su galimais pažymiais apskaičiuoti. Tačiau dažnai
-reikia nustatyti skaičiavimus iš naujo, or naujinti puslapį kiekvieną kartą
-trunka pakankamai laiko bei padidina dienyno apkrovimą.
+reikia nustatyti skaičiavimus iš naujo, o naujinti puslapį kiekvieną kartą
+užima daug laiko bei padidina dienyno apkrovimą.
 
-Šis script'as problemą nusprendžia gana paprastai: sukuria "Clear" mygtuką,
-paspaudęs kurį, visi papildomi pažymiai yra ištrinti. Galima planuoti ateitį iš naujo!
+Šis script'as problemą sprendžia gana paprastai: sukuria "Clear" mygtuką, kuris
+panaikina visus papildomus pažymius. Galima planuoti ateitį iš naujo!
 
 
 ## Installation
@@ -39,7 +39,7 @@ document.getElementById('c_main').appendChild(div);
 Nepamirškite pažymeti "On page load" mygtuką, kad veiktų automatiškai.
 
 ## Screenshots
-### Prieš paspaudinant mygtuką:
+### Iki paspaudžiant mygtuką:
 ![screenshot before](screenshot_before.png)
 ### Spaudžiam... Gone!
 ![screenshot after](screenshot_after.png)
