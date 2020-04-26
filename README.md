@@ -10,7 +10,7 @@ paspaudęs kurį, visi papildomi pažymiai yra ištrinti. Galima planuoti ateit�
 ## Installation
 
 Pirmiausia, jums reikia instaliuoti
-[https://github.com/Lor-Saba/Code-Injector](Code Injector).
+[Code Injector](https://github.com/Lor-Saba/Code-Injector).
 
 URL pattern: `https://dienynas\.tamo\.lt/Pamoka/VidurkiuSkaiciavimas.*$`
 
