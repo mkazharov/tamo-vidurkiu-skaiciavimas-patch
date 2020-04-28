@@ -1,20 +1,14 @@
 # Tamo "Vidurkių skaičiavimas" patch 
-Tamo dienyne yra labai naudinga funkcija vidurkiui su galimais pažymiais apskaičiuoti. Tačiau dažnai
-reikia nustatyti skaičiavimus iš naujo, o naujinti puslapį kiekvieną kartą
-užima daug laiko bei padidina dienyno apkrovimą.
+Tamo dienyne yra labai naudinga funkcija vidurkiui su galimais pažymiais
+apskaičiuoti. Tačiau dažnai reikia nustatyti skaičiavimus iš naujo, o naujinti
+puslapį kiekvieną kartą užima daug laiko bei padidina dienyno apkrovimą.
 
 Šis script'as problemą sprendžia gana paprastai: sukuria "Clear" mygtuką, kuris
 panaikina visus papildomus pažymius. Galima planuoti ateitį iš naujo!
 
 
-## Installation
 
-Pirmiausia, jums reikia instaliuoti
-[Code Injector](https://github.com/Lor-Saba/Code-Injector).
-
-URL pattern: `https://dienynas\.tamo\.lt/Pamoka/VidurkiuSkaiciavimas.*$`
-
-### Script
+## Script
 
 ``` javascript
 var div = document.createElement('div');
@@ -36,7 +30,21 @@ div.appendChild(button);
 document.getElementById('c_main').appendChild(div);
 ```
 
+## Installation (Code Injector)
+
+URL pattern: `https://dienynas\.tamo\.lt/Pamoka/VidurkiuSkaiciavimas.*$`
+
 Nepamirškite pažymeti "On page load" mygtuką, kad veiktų automatiškai.
+
+## Installation (Grease Monkey)
+Script's header:
+
+``` javascript
+// ==UserScript==
+// @name     Tamo dienynas "Vidurkių skaičiavimas" patch
+// @include https://dienynas.tamo.lt/Pamoka/VidurkiuSkaiciavimas*
+// ==/UserScript==
+```
 
 ## Screenshots
 ### Iki paspaudžiant mygtuką:
